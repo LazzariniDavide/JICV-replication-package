@@ -2,6 +2,7 @@
 Replication package for 'Adaptive nonlinear model predictive control for integrated ride comfort and traction control in electric vehicles'
 
 Folder 'MF_Swift' contains the tire models.
+
 Folder 'NMPCs' includes the scripts to build the NMPC s-function used in the 'Performance assessment'section.
 Folders 'NMPCs2/3/4' contain the scripts to build the NMPC s-functions used in the 'Real-time implementation analysis' section.
 Folder 'Plots' includes the scripts to plot the figures presented in the paper.
