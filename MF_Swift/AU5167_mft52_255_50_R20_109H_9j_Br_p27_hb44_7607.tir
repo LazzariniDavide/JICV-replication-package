@@ -1,0 +1,238 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-MF52 2
+FileCreator = CarMaker for Simulink 2020-03-09 11:12:39
+Description:
+	COMPONENT_Ti: Vehicle AU516, Tire Bridgestone 255/50 R20 109H XL, 2.7 bar, DOT4616
+	COMMENT01_Ti: Road surface Flat-Trac_III_CT & IDIADA Trailer
+	COMMENT02_Ti: Road condition Sandpaper 3M P120, Dry & Asphalt, Dry
+	COMMENT03_Ti: 9j
+	COMMENT04_Ti: default-Bedatung fuer Masse und Radtraegheiten verwendet
+	GENERATOR_Ti: Raik Ritter / Michael Schiedermeier (EFS-GV3)
+	DATESTAMP_Ti: 19-Jul-2019 12:22:27
+	VERSION_Ti:   MF-Tyre 5.2, Fittingversion TYpro v4.4
+	Reifegrad_Ti: no IAD- measurements (comfort)
+	SVN-Version:
+	Pfad: C:CM_ProjectsTooling_d_EHILEF_543040_ModelParameterisation50_WheelsOpti_MFT_TMeasyMATLAB_Skripte_TYpro
+	Working Copy Root Path: C:CM_ProjectsTooling_d_EHILEF_5430
+	URL: https://aengp-svn.in.audi.vwg/svn/ee/virtuelleerprobung/VirtuelleErprobung/trunk/EHILEF/110_Tooling/development/Tooling_d_EHILEF_5430/40_ModelParameterisation/50_Wheels/Opti_MFT_TMeasy/MATLAB_Skripte_TYpro
+	Basis des Projektarchivs: https://aengp-svn.in.audi.vwg/svn/ee/virtuelleerprobung
+	UUID des Projektarchivs: a7b654d9-a434-498b-a55e-e7e07103b828
+	Revision: 162518
+	Knotentyp: Verzeichnis
+	Plan: normal
+	Letzter Autor: abel.arrieta-castro@efs-auto.de
+	Letzte geänderte Rev: 162518
+	Letztes Änderungsdatum: 2019-07-09 12:29:49 +0200 (Di, 09. Jul 2019)
+
+
+## General ###############################################################
+Side = right
+StandStill.cLong = 0.01
+StandStill.cSide = 0.2
+StandStill.vMax = 0.25
+
+
+## Visualization #########################################################
+FLoadMax = 10000
+NomWidth = 0.255
+AspectRatio = 0.50
+
+
+## MF-Tire ###############################################################
+muRoad = 1.0
+
+# [MDI_HEADER]
+MDI_Header.FILE_TYPE = tir
+MDI_Header.FILE_VERSION = 3.0
+MDI_Header.FILE_FORMAT = ASCII
+
+# [UNITS]
+Units.LENGTH = meter
+Units.FORCE = newton
+Units.ANGLE = radians
+Units.MASS = kg
+Units.TIME = second
+
+# [MODEL]
+Model.PROPERTY_FILE_FORMAT = MF-TYRE
+Model.USE_MODE = 14
+Model.FITTYP = 6
+Model.TYRESIDE = RIGHT
+Model.LONGVL = 16.7
+
+# [DIMENSION]
+Dim.UNLOADED_RADIUS = 0.3833
+Dim.WIDTH = 0.2550
+Dim.RIM_RADIUS = 0.2540
+Dim.RIM_WIDTH = 0.2286
+Dim.ASPECT_RATIO = 0.5000
+
+# [SHAPE]
+
+# [VERTICAL]
+Vertical.VERTICAL_STIFFNESS = 317634
+Vertical.VERTICAL_DAMPING = 50.0000
+Vertical.BREFF = 2.4150
+Vertical.DREFF = 0.1811
+Vertical.FREFF = 0.0000
+Vertical.FNOMIN = 8838
+
+# [RANGE]
+Range.KPUMIN = -1.5000
+Range.KPUMAX = 1.5000
+Range.ALPMIN = -1
+Range.ALPMAX = 1
+Range.CAMMIN = -0.2634
+Range.CAMMAX = 0.2633
+Range.FZMIN = 9.5920
+Range.FZMAX = 14501
+
+# [SCALING]
+Scale.LFZO = 1.0000
+Scale.LCX = 1.0000
+Scale.LMUX = 1.0000
+Scale.LEX = 1.0000
+Scale.LKX = 1.0000
+Scale.LHX = 1.0000
+Scale.LVX = 1.0000
+Scale.LGAX = 1.0000
+Scale.LCY = 1.0000
+Scale.LMUY = 1.0000
+Scale.LEY = 1.0000
+Scale.LKY = 1.0000
+Scale.LHY = 1.0000
+Scale.LVY = 1.0000
+Scale.LGAY = 1.0000
+Scale.LTR = 1.0000
+Scale.LRES = 1.0000
+Scale.LGAZ = 1.0000
+Scale.LXAL = 1.0000
+Scale.LYKA = 1.0000
+Scale.LVYKA = 1.0000
+Scale.LS = 1.0000
+Scale.LSGKP = 1.0000
+Scale.LSGAL = 1.0000
+Scale.LGYR = 1.0000
+Scale.LMX = 1.0000
+Scale.LVMX = 1.0000
+Scale.LMY = 1.0000
+
+# [LONGITUDINAL]
+Long.PCX1 = 1.4106
+Long.PDX1 = 1.2267
+Long.PDX2 = 0.0113
+Long.PDX3 = 1.4828
+Long.PEX1 = -0.2559
+Long.PEX2 = 0.1301
+Long.PEX3 = 0.0000
+Long.PEX4 = 0.0000
+Long.PKX1 = 34.4585
+Long.PKX2 = 11.5014
+Long.PKX3 = 0.0000
+Long.PHX1 = 0.0000
+Long.PHX2 = 0.0000
+Long.PVX1 = 0.0000
+Long.PVX2 = 0.0000
+Long.RBX1 = 26.0715
+Long.RBX2 = 18.3972
+Long.RCX1 = 1.0000
+Long.REX1 = 0.0000
+Long.REX2 = 0.0000
+Long.RHX1 = -0.0002
+Long.PTX1 = 1.1021
+Long.PTX2 = -0.8034
+Long.PTX3 = 0.0012
+
+# [OVERTURNING]
+OverTurn.QSX1 = 0.0010
+OverTurn.QSX2 = 0.8439
+OverTurn.QSX3 = -0.0011
+
+# [LATERAL]
+Lat.PCY1 = 1.4909
+Lat.PDY1 = 1.0361
+Lat.PDY2 = -0.2227
+Lat.PDY3 = -2.1013
+Lat.PEY1 = -0.4658
+Lat.PEY2 = -1.1135
+Lat.PEY3 = 0.0005
+Lat.PEY4 = -11.4080
+Lat.PKY1 = -16.9857
+Lat.PKY2 = 1.0955
+Lat.PKY3 = 0.0000
+Lat.PHY1 = 0.0023
+Lat.PHY2 = 0.0019
+Lat.PHY3 = 0.0000
+Lat.PVY1 = 0.0131
+Lat.PVY2 = 0.0310
+Lat.PVY3 = -0.8963
+Lat.PVY4 = -0.6923
+Lat.RBY1 = 11.3868
+Lat.RBY2 = 7.7287
+Lat.RBY3 = 0.0000
+Lat.RCY1 = 1.0000
+
+Lat.REY1 = 0.0000
+Lat.REY2 = 0.0000
+
+Lat.RHY1 = 0.0003
+Lat.RHY2 = 0.0000
+Lat.RVY1 = -0.0005
+Lat.RVY2 = 0.0000
+Lat.RVY3 = 0.0000
+Lat.RVY4 = 1.0000
+Lat.RVY5 = 1.0000
+Lat.RVY6 = 1.0000
+
+Lat.PTY1 = 1.8906
+Lat.PTY2 = 1.3036
+
+# [ROLLING]
+Roll.QSY1 = 0.0100
+Roll.QSY2 = 0.0000
+Roll.QSY3 = 0.0000
+Roll.QSY4 = 0.0000
+
+# [ALIGNING]
+Align.QBZ1 = 8.1456
+Align.QBZ2 = 0.0000
+Align.QBZ3 = 0.0000
+Align.QBZ4 = -0.9584
+Align.QBZ5 = 1.6906
+Align.QBZ9 = -13.4320
+Align.QBZ10 = 1.0000
+Align.QCZ1 = 1.1497
+Align.QDZ1 = 0.1330
+Align.QDZ2 = 0.0725
+Align.QDZ3 = 0.8945
+Align.QDZ4 = 0.0000
+Align.QDZ6 = 0.0033
+Align.QDZ7 = -0.0117
+Align.QDZ8 = -0.4604
+Align.QDZ9 = -0.1974
+Align.QEZ1 = -9.0465
+Align.QEZ2 = 0.0020
+Align.QEZ3 = 0.0000
+Align.QEZ4 = 0.0000
+Align.QEZ5 = -8.7380
+
+Align.QHZ1 = -0.0005
+Align.QHZ2 = -0.0234
+Align.QHZ3 = 0.0828
+Align.QHZ4 = -0.0488
+
+Align.SSZ1 = 0.0000
+Align.SSZ2 = 0.0000
+Align.SSZ3 = 0.0000
+Align.SSZ4 = 0.0000
+Align.QTZ1 = 0.0000
+Align.MBELT = 0.0000
+
+
+## Additional Parameters #################################################
+Wheel.I = 1.5403 2.5391 1.5403
+Wheel.mass = 30.99
+example:
+	-calculation of Fy,Mx,Mz only
+	-including relaxation effects
+	-mirrored tyre characteristics
